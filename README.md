@@ -6,9 +6,11 @@ swagger study demo
 swagger-ui、swagger-editor安装包，可使用此目录下安装包，自行下载最新包也可
 
 1.swagger-ui环境搭建
+
   (1)创建一个空文件夹node_app 
       mkdir node_app 
       cd node_ap
+
   (2)初始化node，创建package.json文件
       npm init
       // 下面的看你心情填写
@@ -21,8 +23,10 @@ swagger-ui、swagger-editor安装包，可使用此目录下安装包，自行�
       keywords:
       author:
       license: (ISC)
+
   (3)安装 express 
       npm install express --save
+
   (4)创建 index.js
       vim index.js 
       //index.js内容
@@ -35,9 +39,11 @@ swagger-ui、swagger-editor安装包，可使用此目录下安装包，自行�
       app.listen(3000, function () {
         console.log('Example app listening on port 3000!');
       });
+
   （5)在node_app中创建空目录public
       mkdir public
       cd public
+
    (6)修改路由
       vim ../index.js
 
@@ -53,20 +59,24 @@ swagger-ui、swagger-editor安装包，可使用此目录下安装包，自行�
 
       app.listen(3000, function () {
         console.log('Example app listening on port 3000!');
-      });      
+      });   
+
    (7)重启node服务器
       node index.js
 
 2.swagger-editor环境搭建
   (1)安装node.js HttpServer
      npm install -g http-server
+
   (2)解压swagger-editor安装包
     tar -zxvf swagger-editor-3.1.12.tar.gz
     mv swagger-editor-3.1.12 swagger-editor
     cd swagger-editor
+
   (3)启动Swagger-Editor项目
     http-server swagger-editor 以8080端口启动项目 
     http-server –p 8082 swagger-editor 指定端口启动项目
+
   (4)访问url
     http://127.0.0.1:8080/
 
