@@ -1,0 +1,105 @@
+*{ margin:0px; padding:0px; }
+a{ text-decoration:none;}
+a:hover{ text-decoration:none;}
+img{ border:0px;}
+ul li{ list-style:none;}
+em,i{ font-style:normal;}
+.whatsvpn_left{ float:left;}
+body{ background:#FAFAFA; min-width:1200px;}
+.whatsvpn_sy_three ul li a:hover,.whatsvpn_sy_three ul li a:hover i,.whatsvpn_h_right .whatsvpn_top .whatsvpn_left a:hover,.whatsvpn_footer ul li p a:hover,.whatsvpn_ly_three ul li a:hover,.whatsvpn_ly_three ul li a:hover i,.whatsvpn_dl_two ul .whatsvpn_li_last a:hover,.whatsvpn_bz_menu ul li p a:hover,.whatsvpn_bz_title a:hover{ color:#339900;}
+
+
+.whatsvpn_header{ float:left; width:100%; height:100px; position:relative; z-index:1; background:url(../images/bg_01.jpg) repeat-x;}
+.whatsvpn_logo{ float:left; padding-left:30px;}
+.whatsvpn_menu{ float:left; padding-top:45px; padding-left:20px; position:relative; z-index:9999;}
+.whatsvpn_menu li{ float:left; padding-left:20px;}
+.whatsvpn_menu li a{ float:left; padding:0px 15px; font-size:16px; color:#fff;font-family:Microsoft Yahei; height:32px; line-height:32px;}
+.whatsvpn_menu li a:hover,.whatsvpn_menu li .whatsvpn_curr{ background:url(../images/bg_02.png) no-repeat center center; background-size:100% 100%;}
+.whatsvpn_menu li .whatsvpn_a_home:hover,.whatsvpn_menu li .whatsvpn_a_home.whatsvpn_curr{ background:url(../images/bg_09.png) no-repeat center center;background-size:100% 100%;}
+
+.whatsvpn_h_right{ position:absolute; right:30px; top:8px; width:680px;z-index:9999;font-size:12px}
+.whatsvpn_h_right .whatsvpn_top{ float:left; height:40px; width:100%;}
+.whatsvpn_sel_guojia{ width:120px; margin-left:10px;background:url(../images/bg_03.jpg) no-repeat right center #060805; height:30px; float:left; position:relative; z-index:9999;}
+.whatsvpn_sel_guojia .whatsvpn_zhi{ float:left; line-height:30px; color:#ADABAB; width:110px; padding-left:5px; cursor:pointer;}
+.whatsvpn_sel_guojia .whatsvpn_zhi img{ float:left; width:16px; height:12px; margin-right:5px; margin-top:9px;}
+.whatsvpn_sel_guojia .whatsvpn_bottom{ width:100%; position:absolute; top:30px; left:0px; background:#060705; display:none;}
+.whatsvpn_sel_guojia .whatsvpn_bottom p{ float:left; width:100%; line-height:30px; height:30px;color:#ADABAB; cursor:pointer;}
+.whatsvpn_sel_guojia .whatsvpn_bottom p img{ float:left; width:16px; height:12px; margin-left:10px; margin-right:5px; margin-top:9px;}
+.whatsvpn_sel_guojia .whatsvpn_bottom p:hover{ background:#2A2A2A}
+.whatsvpn_h_right .whatsvpn_top .whatsvpn_left{ float:left; line-height:30px; font-weight:bold; padding:0px 10px; color:#8B8989;}
+.whatsvpn_h_right .whatsvpn_top .whatsvpn_left a{ color:#8B8989; font-weight:bold; padding:0px 10px;}
+.whatsvpn_h_right .whatsvpn_top .whatsvpn_k_jie{ float:left; line-height:30px; color:#8D8888;}
+.whatsvpn_h_right .whatsvpn_top .whatsvpn_k_jie span{ float:left;color:#8D8888;}
+.whatsvpn_h_right .whatsvpn_top .whatsvpn_k_jie img{margin-left:8px; float:left; margin-top:5px;}
+.whatsvpn_h_search{ float:right; width:210px; height:26px; background:#0B0505; border-radius:20px;}
+.whatsvpn_h_search .whatsvpn_txt_search{ float:left; width:160px; padding-left:15px; line-height:26px; color:#999999; background:none;}
+.whatsvpn_h_search .whatsvpn_btn_search{ float:right; width:17px; height:26px; cursor:pointer; background:url(../images/bg_04.png) no-repeat center center; margin-right:10px}
+.whatsvpn_sy_two ul li .whatsvpn_a_xz .whatsvpn_rr:hover em{ display:block;}
+.whatsvpn_ly_three ul li,.whatsvpn_ly_three ul{ float:left; width:100%;}
+.whatsvpn_lx_four .whatsvpn_top,.whatsvpn_lx_five .whatsvpn_top{ float:left; width:100%; text-align:center; line-height:130px; color:#333333; font-size:50px; font-weight:normal; font-family:Microsoft Yahei; letter-spacing:3px;}
+.whatsvpn_kf_six ul li .whatsvpn_txt,.whatsvpn_kf_six ul li .whatsvpn_select{ width:540px; padding-left:20px; height:52px; border:1px solid #CCCCCC; line-height:52px; font-size:16px; border-radius:4px;font-family:Microsoft Yahei; color:#696969; margin-bottom:15px; margin-top:5px;}
+.whatsvpn_kf_six ul li .whatsvpn_select{ width:560px; padding:10px 0px; padding-left:15px;}
+.whatsvpn_cp_six .whatsvpn_left,.whatsvpn_cp_seven .whatsvpn_right{ float:left; width:390px; padding-left:80px; padding-top:30px; line-height:30px; color:#5F5F5F; font-size:16px;font-family:Microsoft Yahei}
+.whatsvpn_cp_six .whatsvpn_left h3,.whatsvpn_cp_seven .whatsvpn_right h3{ float:left; width:100%; font-weight:normal; padding-bottom:20px; color:#60615C; font-size:32px;font-family:Microsoft Yahei}
+.whatsvpn_cp_seven .whatsvpn_right{ float:right; width:420px;}
+
+.whatsvpn_axz_hui,.whatsvpn_axz_green{ float:left; width:160px; height:45px; background:url(../images/bg_11.png) no-repeat; text-align:center; line-height:45px; color:#414141; font-size:20px;font-family:Microsoft Yahei; margin-top:20px; margin-right:10px;}
+.whatsvpn_axz_green{ background:url(../images/bg_12.png) no-repeat; color:#fff;}
+.whatsvpn_zc_one{ float:left; width:100%; text-align:center; padding:40px 0px;}
+.whatsvpn_zc_two{ float:left; width:560px; padding-left:320px;}
+.whatsvpn_zc_two li{ float:left; width:100%; padding-bottom:15px; line-height:25px;font-family:Microsoft Yahei; font-size:16px;color:#999999;}
+.whatsvpn_zc_two li .whatsvpn_text{ float:left; width:300px; padding-left:15px; height:50px; border:1px solid #CFCFCF; border-radius:5px; line-height:50px; color:#999999; font-size:15px;font-family:Microsoft Yahei;}
+.whatsvpn_zc_two li .whatsvpn_txt_yzm{ width:120px}
+.whatsvpn_zc_two li a{ color:#4C94FF; font-size:14px;font-family:Microsoft Yahei;}
+.whatsvpn_zc_two li .whatsvpn_a{ float:left; margin-left:10px; font-size:17px;}
+.whatsvpn_zc_two li .whatsvpn_a img{ margin-bottom:-15px;}
+.whatsvpn_zc_two li label{ cursor:pointer; font-size:14px;color:#999999;}
+.whatsvpn_zc_two li .whatsvpn_btn_green{ float:left; width:315px; height:52px; background:#0DBD2B; border-radius:5px; cursor:pointer; font-size:16px; font-weight:bold; letter-spacing:3px; color:#fff;}
+.whatsvpn_zc_two .whatsvpn_li{ float:left; width:315px; text-align:center; padding-bottom:60px;}
+
+/* footer */
+.whatsvpn_footer{ float:left; width:100%; background:#333333; padding:40px 0px;}
+.whatsvpn_footer .whatsvpn_main{ width:1020px; margin:0 auto;}
+.whatsvpn_footer .whatsvpn_left{ float:left; width:140px; color:#656565; font-size:14px; line-height:20px;}
+.whatsvpn_footer .whatsvpn_left img{ margin-left:25px;}
+.whatsvpn_footer ul{ float:right; width:880px}
+.whatsvpn_footer ul li{ float:left; width:80px; padding-left:90px;}
+.whatsvpn_footer ul li h3{ float:left; width:100%; height:30px; line-height:30px; font-size:14px;color:#339900;}
+.whatsvpn_footer ul li p{ float:left; width:100%; line-height:25px;}
+.whatsvpn_footer ul li p a{ color:#D2CFCF; font-size:14px;}
+
+
+.whatsvpn_link_btm a:link,a:visited{  
+    color:black;
+    padding:4px 10px 4px 10px;
+    background-color:green;
+    text-decoration:none;
+ 
+    border-top:1px solid #EEEEEE; 
+    border-left:1px solid #EEEEEE;
+    border-bottom:1px solid #717171;
+    border-right:1px solid #717171;
+
+     
+     -moz-border-radius: 5px;
+     
+     border-radius: 5px;
+     
+   -webkit-border-radius: 5px;
+}
+.whatsvpn_link_btm a:hover{       
+    color:#821818;     
+    padding:5px 8px 3px 12px;  
+    background-color:#A0D57B;  
+    border-top:1px solid #717171; 
+    border-left:1px solid #717171;
+    border-bottom:1px solid #EEEEEE;
+    border-right:1px solid #EEEEEE;
+
+     
+     -moz-border-radius: 5px;
+     
+     border-radius: 5px;
+     
+   -webkit-border-radius: 5px;
+}
