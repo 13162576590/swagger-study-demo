@@ -108,8 +108,8 @@ swagger-ui、swagger-editor安装包，可使用此目录下安装包，自行�
         "schemes": [
             "https"
         ],
-        "host": "simple.api",
-        "basePath": "/openapi101",
+        "host": "127.0.0.1",
+        "basePath": "/test",
         "paths": {
             "/persons": {
                 "get": {
@@ -152,8 +152,8 @@ swagger-ui、swagger-editor安装包，可使用此目录下安装包，自行�
 
     schemes:
       - https
-    host: simple.api
-    basePath: /openapi101
+    host: 127.0.0.1
+    basePath: /test
 
     paths:
       /persons:
