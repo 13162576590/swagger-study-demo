@@ -6,7 +6,6 @@ swagger study demo
 swagger-ui、swagger-editor安装包，可使用此目录下安装包，自行下载最新包也可
 
 1.swagger-ui环境搭建
-
   (1)创建一个空文件夹node_app 
       mkdir node_app 
       cd node_ap
